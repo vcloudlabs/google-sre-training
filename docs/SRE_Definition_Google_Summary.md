@@ -2,7 +2,23 @@
 # Google SRE
 
 
-Site Reliability Engineering (SRE) is a discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems. The goal is to create scalable and highly reliable software systems.
+# What is Site Reliability Engineering (SRE)?
+
+**Site Reliability Engineering (SRE)** is a discipline that applies **software engineering practices** to **infrastructure and operations** tasks. The goal is to build systems that are **scalable**, **automated**, and **highly reliable**.
+
+---
+
+## 🔧 Example: Software Engineering Practices Used in SRE
+
+| Practice                 | How It's Used in SRE                                                 |
+|--------------------------|----------------------------------------------------------------------|
+| **Coding & Automation**  | Writing scripts or tools to automate deployments, backups, scaling, etc. |
+| **Version Control**      | Managing infrastructure with tools like Git and Terraform             |
+| **Testing**              | Using automated tests for infrastructure and CI/CD pipelines          |
+| **Code Reviews**         | Reviewing operational changes such as configuration files or deployment logic |
+| **Design Patterns**      | Applying patterns for high availability, fault tolerance, and resilience |
+
+---
 
 ##🔹 Core Principles
 - **Embrace Risk:** Error budgets, Service Level Objectives (SLOs)
