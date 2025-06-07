@@ -1,0 +1,73 @@
+site_name: VCloudLabs Trainings - Google SRE Handbook
+site_description: Practical and production-grade insights into Site Reliability Engineering based on Google's SRE principles.
+site_author: Vibhor Chhabra
+site_url: https://vcloudlabs.in
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tabs
+    - navigation.expand
+    - content.code.copy
+    - content.action.edit
+    - content.tabs.link
+  palette:
+    scheme: default
+    primary: blue
+    accent: indigo
+  layout:
+    width: full
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Introduction:
+      - What is SRE?: SRE_Definition_Google_Summary.md
+  - Service Levels:
+      - SLIs: SLI_Detailed.md
+      - SLOs: SLO_Deep_Dive.md
+      - Error Budgets: Error_Budget_Summary.md
+      - Budget Burn: Budget_Burn_Concept.md
+  - SLAs:
+      - SLA Overview: SLA_Explained.md
+  - Reliability Practices:
+      - Toil and Elimination: Toil_and_Toil_Elimination.md
+      - Incident Management: Incident_Management_and_Postmortems.md
+      - Production Readiness:
+          - PRR Overview: PRR_Summary.md
+          - PRR Form: PRR_Demo_Form.md
+          - PRR Example: PRR_Filled_Out_Example.md
+  - Engineering & Delivery:
+      - Release Engineering: Release_Engineering_Summary.md
+      - Capacity Planning: Capacity_Planning_and_Load_Testing.md
+  - Observability:
+      - Monitoring & Telemetry: Monitoring_Observability_Telemetry_Summary.md
+  - Culture & Risk:
+      - Risk Management: Risk_Management_in_SRE.md
+      - SRE Culture: SRE_Culture_and_Team_Models.md
+  - Tooling:
+      - Toolchain: SRE_Toolchain_Design_and_Examples.md
+
+repo_url: https://github.com/yourusername/sre-handbook
+repo_name: GitHub
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/vibhor-chhabra
+
