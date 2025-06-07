@@ -20,7 +20,7 @@
 
 ---
 
-##🔹 Core Principles
+## 🔹 Core Principles
 - **Embrace Risk:** Error budgets, Service Level Objectives (SLOs)
 
 - **Service Level Management:** SLOs, SLIs, SLAs
